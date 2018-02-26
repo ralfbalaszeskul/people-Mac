@@ -1,6 +1,6 @@
 language: swift
-xcode_project: "mac/People/People Mac.xcodeproj"
+xcode_project: mac/People-Mac/People-Mac.xcodeproj
 xcode_scheme:
-    - "People MacTests"
-    - "People MacUITests"
+    - "People-MacTests"
+    - "People-MacUITests"
 osx_image: xcode9.2

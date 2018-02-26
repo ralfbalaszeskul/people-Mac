@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BFE7D24F2044634C008F50C6 /* People Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE7D24F2044634C008F50C6 /* People-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "People-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE7D2522044634C008F50C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFE7D2542044634C008F50C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFE7D2572044634C008F50C6 /* People_Mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = People_Mac.xcdatamodel; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		BFE7D25C2044634C008F50C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFE7D25E2044634C008F50C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFE7D25F2044634C008F50C6 /* People_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = People_Mac.entitlements; sourceTree = "<group>"; };
-		BFE7D2642044634C008F50C6 /* People MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE7D2642044634C008F50C6 /* People-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE7D2682044634C008F50C6 /* People_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People_MacTests.swift; sourceTree = "<group>"; };
 		BFE7D26A2044634C008F50C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFE7D26F2044634C008F50C6 /* People MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE7D26F2044634C008F50C6 /* People-MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "People-MacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE7D2732044634C008F50C6 /* People_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People_MacUITests.swift; sourceTree = "<group>"; };
 		BFE7D2752044634C008F50C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,9 +78,9 @@
 		BFE7D2462044634C008F50C6 = {
 			isa = PBXGroup;
 			children = (
-				BFE7D2512044634C008F50C6 /* People Mac */,
-				BFE7D2672044634C008F50C6 /* People MacTests */,
-				BFE7D2722044634C008F50C6 /* People MacUITests */,
+				BFE7D2512044634C008F50C6 /* People-Mac */,
+				BFE7D2672044634C008F50C6 /* People-MacTests */,
+				BFE7D2722044634C008F50C6 /* People-MacUITests */,
 				BFE7D2502044634C008F50C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,14 +88,14 @@
 		BFE7D2502044634C008F50C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFE7D24F2044634C008F50C6 /* People Mac.app */,
-				BFE7D2642044634C008F50C6 /* People MacTests.xctest */,
-				BFE7D26F2044634C008F50C6 /* People MacUITests.xctest */,
+				BFE7D24F2044634C008F50C6 /* People-Mac.app */,
+				BFE7D2642044634C008F50C6 /* People-MacTests.xctest */,
+				BFE7D26F2044634C008F50C6 /* People-MacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BFE7D2512044634C008F50C6 /* People Mac */ = {
+		BFE7D2512044634C008F50C6 /* People-Mac */ = {
 			isa = PBXGroup;
 			children = (
 				BFE7D2522044634C008F50C6 /* AppDelegate.swift */,
@@ -106,33 +106,33 @@
 				BFE7D25F2044634C008F50C6 /* People_Mac.entitlements */,
 				BFE7D2562044634C008F50C6 /* People_Mac.xcdatamodeld */,
 			);
-			path = "People Mac";
+			path = "People-Mac";
 			sourceTree = "<group>";
 		};
-		BFE7D2672044634C008F50C6 /* People MacTests */ = {
+		BFE7D2672044634C008F50C6 /* People-MacTests */ = {
 			isa = PBXGroup;
 			children = (
 				BFE7D2682044634C008F50C6 /* People_MacTests.swift */,
 				BFE7D26A2044634C008F50C6 /* Info.plist */,
 			);
-			path = "People MacTests";
+			path = "People-MacTests";
 			sourceTree = "<group>";
 		};
-		BFE7D2722044634C008F50C6 /* People MacUITests */ = {
+		BFE7D2722044634C008F50C6 /* People-MacUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BFE7D2732044634C008F50C6 /* People_MacUITests.swift */,
 				BFE7D2752044634C008F50C6 /* Info.plist */,
 			);
-			path = "People MacUITests";
+			path = "People-MacUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFE7D24E2044634C008F50C6 /* People Mac */ = {
+		BFE7D24E2044634C008F50C6 /* People-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFE7D2782044634C008F50C6 /* Build configuration list for PBXNativeTarget "People Mac" */;
+			buildConfigurationList = BFE7D2782044634C008F50C6 /* Build configuration list for PBXNativeTarget "People-Mac" */;
 			buildPhases = (
 				BFE7D24B2044634C008F50C6 /* Sources */,
 				BFE7D24C2044634C008F50C6 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = "People Mac";
+			name = "People-Mac";
 			productName = "People Mac";
-			productReference = BFE7D24F2044634C008F50C6 /* People Mac.app */;
+			productReference = BFE7D24F2044634C008F50C6 /* People-Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFE7D2632044634C008F50C6 /* People MacTests */ = {
+		BFE7D2632044634C008F50C6 /* People-MacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFE7D27B2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People MacTests" */;
+			buildConfigurationList = BFE7D27B2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People-MacTests" */;
 			buildPhases = (
 				BFE7D2602044634C008F50C6 /* Sources */,
 				BFE7D2612044634C008F50C6 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				BFE7D2662044634C008F50C6 /* PBXTargetDependency */,
 			);
-			name = "People MacTests";
+			name = "People-MacTests";
 			productName = "People MacTests";
-			productReference = BFE7D2642044634C008F50C6 /* People MacTests.xctest */;
+			productReference = BFE7D2642044634C008F50C6 /* People-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BFE7D26E2044634C008F50C6 /* People MacUITests */ = {
+		BFE7D26E2044634C008F50C6 /* People-MacUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFE7D27E2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People MacUITests" */;
+			buildConfigurationList = BFE7D27E2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People-MacUITests" */;
 			buildPhases = (
 				BFE7D26B2044634C008F50C6 /* Sources */,
 				BFE7D26C2044634C008F50C6 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				BFE7D2712044634C008F50C6 /* PBXTargetDependency */,
 			);
-			name = "People MacUITests";
+			name = "People-MacUITests";
 			productName = "People MacUITests";
-			productReference = BFE7D26F2044634C008F50C6 /* People MacUITests.xctest */;
+			productReference = BFE7D26F2044634C008F50C6 /* People-MacUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BFE7D24A2044634C008F50C6 /* Build configuration list for PBXProject "People Mac" */;
+			buildConfigurationList = BFE7D24A2044634C008F50C6 /* Build configuration list for PBXProject "People-Mac" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFE7D24E2044634C008F50C6 /* People Mac */,
-				BFE7D2632044634C008F50C6 /* People MacTests */,
-				BFE7D26E2044634C008F50C6 /* People MacUITests */,
+				BFE7D24E2044634C008F50C6 /* People-Mac */,
+				BFE7D2632044634C008F50C6 /* People-MacTests */,
+				BFE7D26E2044634C008F50C6 /* People-MacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		BFE7D2662044634C008F50C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFE7D24E2044634C008F50C6 /* People Mac */;
+			target = BFE7D24E2044634C008F50C6 /* People-Mac */;
 			targetProxy = BFE7D2652044634C008F50C6 /* PBXContainerItemProxy */;
 		};
 		BFE7D2712044634C008F50C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFE7D24E2044634C008F50C6 /* People Mac */;
+			target = BFE7D24E2044634C008F50C6 /* People-Mac */;
 			targetProxy = BFE7D2702044634C008F50C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.balaszeskul.ralf.People-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People Mac.app/Contents/MacOS/People Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People-Mac.app/Contents/MacOS/People-Mac";
 			};
 			name = Debug;
 		};
@@ -495,7 +495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.balaszeskul.ralf.People-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People Mac.app/Contents/MacOS/People Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/People-Mac.app/Contents/MacOS/People-Mac";
 			};
 			name = Release;
 		};
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFE7D24A2044634C008F50C6 /* Build configuration list for PBXProject "People Mac" */ = {
+		BFE7D24A2044634C008F50C6 /* Build configuration list for PBXProject "People-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFE7D2762044634C008F50C6 /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFE7D2782044634C008F50C6 /* Build configuration list for PBXNativeTarget "People Mac" */ = {
+		BFE7D2782044634C008F50C6 /* Build configuration list for PBXNativeTarget "People-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFE7D2792044634C008F50C6 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFE7D27B2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People MacTests" */ = {
+		BFE7D27B2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People-MacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFE7D27C2044634C008F50C6 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFE7D27E2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People MacUITests" */ = {
+		BFE7D27E2044634C008F50C6 /* Build configuration list for PBXNativeTarget "People-MacUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFE7D27F2044634C008F50C6 /* Debug */,
